@@ -1,5 +1,4 @@
 //Matthieu VION 
-// Vollfeiw was here
 // Groupe J2
 
 public class RobotRoulant
@@ -8,7 +7,8 @@ public class RobotRoulant
     protected static final int NB_COLONNE = 8;
 
     protected static int  nbInstance=0;
-
+    
+    protected int    toxicEstNul;
     protected int    numRobot;
     protected int    ligne;
     protected int    colonne;
